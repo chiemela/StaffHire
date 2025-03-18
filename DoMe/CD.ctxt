@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CD
+comment0.text=\n\ The\ CD\ class\ represents\ a\ CD\ object.\ Information\ about\ the\ \n\ CD\ is\ stored\ and\ can\ be\ retrieved.\n\ \n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\n\ @version\ 2008.03.30\n
+comment1.params=theTitle\ theArtist\ tracks\ time
+comment1.target=CD(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\n\ Initialize\ the\ CD.\n\ @param\ theTitle\ The\ title\ of\ the\ CD.\n\ @param\ theArtist\ The\ artist\ of\ the\ CD.\n\ @param\ tracks\ The\ number\ of\ tracks\ on\ the\ CD.\n\ @param\ time\ The\ playing\ time\ of\ the\ CD.\n
+comment2.params=comment
+comment2.target=void\ setComment(java.lang.String)
+comment2.text=\n\ Enter\ a\ comment\ for\ this\ CD.\n\ @param\ comment\ The\ comment\ to\ be\ entered.\n
+comment3.params=
+comment3.target=java.lang.String\ getComment()
+comment3.text=\n\ @return\ The\ comment\ for\ this\ CD.\n
+comment4.params=ownIt
+comment4.target=void\ setOwn(boolean)
+comment4.text=\n\ Set\ the\ flag\ indicating\ whether\ we\ own\ this\ CD.\n\ @param\ ownIt\ true\ if\ we\ own\ the\ CD,\ false\ otherwise.\n
+comment5.params=
+comment5.target=boolean\ getOwn()
+comment5.text=\n\ @return\ true\ if\ we\ own\ a\ copy\ of\ this\ CD.\n
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\n\ Print\ details\ about\ this\ CD\ to\ the\ text\ terminal.\n
+numComments=7
